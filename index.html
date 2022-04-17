@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Hotel Suisse</title>
+</head>
+<body>
+    <div class="container">
+
+       <div class="hamburguer">
+           <div class="line" id="line1"></div>
+           <div class="line" id="line2"></div>
+           <div class="line" id="line3"></div>
+           <span>fechar</span>
+       </div>
+        <header>
+        <div class="img-wrapper">
+            <img src="imagens/bg.jpg" alt="">
+        </div>
+        <div class="banner" id="home">
+
+        <h1>Hotel Suisse</h1>
+        <p>Localizado em Patrocínio-MG</p>
+        <p>Inaugurado em 2023</p>
+        <button>Saiba Mais</button>
+
+        </div>
+    </header>
+    <aside class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#comodidades" class="menu-link">Comodidades</a></li>
+                <li class="menu-item"><a href="#fotos" class="menu-link">Fotos</a></li>
+                <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#reserva" class="menu-link">Reserva</a></li>
+            </ul>
+        </nav>
+        <div class="social-media"><a href="">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </aside>
+    <section class="comodidades-conhecimentos" id="comodidades">
+        <div class="comodidades-header">
+            <h2>Comodidades</h2>
+        </div>
+        <div class="comodidades">
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-square-parking"></i>
+                    <h3>Estacionamento Gratuito</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Estacionamento privativo gratuito, com segurança 24horas e câmeras de monitoramento interno</p>
+                </div>
+            </div>
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-map-location"></i>
+                    <h3>Localização Privilegiada</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Excelente localização, a 5 minutos da BR365 e da MG-230, próximo a supermercado, posto de gasolina e conveniências.</p>
+                </div>
+            </div>
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Café da manhã incluído</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Café da manhã incluso em todas as diárias e pacotes do hotel</p>
+                </div>
+            </div>
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-bed"></i>
+                    <h3>Quartos espaçosos</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Seja para 1 pessoa ou para toda sua família nosso hotel tem quartos espaçosos para voçê aproveitar o melhor do tempo conosco </p>
+                </div>
+            </div>
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h3>Hospitalidade</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Toda nossa equipe de colaboradores estão prontos para atender aos hóspedes da melhor maneira possivel</p>
+                </div>
+            </div>
+            <div class="comodidade">
+                <div class="comodidade-header">
+                    <i class="fa-solid fa-wheelchair"></i>
+                    <h3>Acessibilidade</h3>
+                </div>
+                <div class="comodidade-text">
+                    <p>Todo nosso hotel e pensado na Acessibilidade!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-fotos" id="fotos">
+        <div class="sessao-header">
+            <h1>Fotos</h1>
+        </div> 
+        <div class="fotos">
+            <cards>
+            <div class="cards">
+                <div class="fotos-img-wrapper">
+                    <img src=imagens/fotos1-card.jpg alt="imagem do quarto 1"/>
+                </div>
+            </div>
+        </cards>
+            <cards>
+            <div class="cards">
+                <div class="fotos-img-wrapper">
+                    <img src=imagens/fotos2-card.jpeg alt="imagem do quarto 2"/>
+                </div>
+            </div>
+        </cards>
+        <cards>
+            <div class="cards">
+                <div class="fotos-img-wrapper">
+                    <img src=imagens/fotos3-card.jpeg alt="imagem do quarto 3"/>
+                </div>
+            </div>
+        </cards>
+        </div>
+
+    </section>
+    <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" class="field" id="nome">
+                    <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="field" id="email">
+                    <label for="email" class="field-label">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="field" id="message">
+                    <label for="message" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <section class="sessao-orcamento" id="reserva">
+        <div class="orcamento-wrapper">
+            <h1>Faça sua Reserva</h1>
+            <form class="reserva">
+                <label for="qtde">Data entrada</label>
+                <input type="date" name="qtde" id="qtde"><br>
+                <label for="qtde">Data saída</label>
+                <input type="date" name="qtde" id="qtde"><br>
+                <label for="qtde">Numero de Pessoas</label>
+                <input type="text" id="qtde"><br>
+                <label for="acessibilidade">Nessessito de quarto com acessibilidade?</label><br>
+                <input type="checkbox" name="acessibilidade" id="qtde"><br>
+                <label>Grupo de pessoas?</label>
+                <div class="group-layout">
+                    
+                        <input type="radio" name="grupo" id="qtde">
+                        <label for="grupo-sim">Grupo de pessoas < 10 pessoas</label>
+                        <div>
+                        <input type="radio" name="grupo" id="qtde">
+                        <label for="grupo-sim">Grupo de pessoas > 10 pessoas</label>
+                    </div>
+                    <label for="especial">Requisições Especiais</label>
+                    <input type="range" name="especial" id="qtde"><br>
+                    <button type="submit" class="btn-submit btn-orcamento">Enviar</button>
+                </div>
+            </form>
+
+            <footer>
+                <div class="footer-content">
+                    <p>Copyright MattsPTC, 2022, Registered Company - Todos os direitos reservados</p>
+                <div class="social-list">
+                    <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+
+            </footer>
+        </div>
+
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
